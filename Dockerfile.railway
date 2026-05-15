@@ -1,0 +1,31 @@
+# ── Railway-optimized Dockerfile ─────────────────────────────────────────────
+# Single container: FastAPI + in-memory fallbacks (no Playwright, no ChromaDB)
+# Full Docker Compose stack → use docker-compose.yml for local/Sumopod deploy
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Minimal system deps (no Playwright browser)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python deps (skip playwright install)
+COPY requirements.txt .
+RUN pip install --no-cache-dir \
+    fastapi==0.111.0 \
+    uvicorn[standard]==0.30.0 \
+    pydantic==2.7.0 \
+    redis==5.0.4 \
+    httpx>=0.27.0 \
+    aiohttp>=3.9.0 \
+    python-dotenv==1.0.1 \
+    loguru==0.7.2 \
+    tenacity==8.3.0 \
+    beautifulsoup4==4.12.3
+
+COPY . .
+
+EXPOSE 8000
+
+CMD uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}
