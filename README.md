@@ -203,6 +203,8 @@ Proyek ini berpartisipasi dalam **Best Payment Use Case** track dengan menginteg
 
 MIT License — lihat [LICENSE](LICENSE) untuk detail.
 
+**Implementation Copyright:** © 2026 [Felix Yustian Setiono](https://linkedin.com/in/felixsetiono). The entire system architecture, API source code, and experimental analysis documents within this repository are the original intellectual property of the author.
+
 ---
 
 *OpenClaw Agenthon 2026 | RISTEK x Build Club | 15 Mei 2026*
