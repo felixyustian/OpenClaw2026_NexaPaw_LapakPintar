@@ -72,8 +72,8 @@
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/[NamaTim]/OpenClaw2026_[NamaTim]_UMKMAutopilot.git
-cd OpenClaw2026_[NamaTim]_UMKMAutopilot
+git clone https://github.com/felixyustian/OpenClaw2026_NexaPaw_LapakPintar.git
+cd OpenClaw2026_NexaPaw_LapakPintar
 ```
 
 ### 2. Setup Environment
