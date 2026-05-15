@@ -19,7 +19,7 @@ echo "Updating README placeholders..."
 sed -i "s|📹 Demo Video: \[https://www.youtube.com/watch?v=n798nMT8Ce0\]|📹 Demo Video: [Watch on YouTube](${YT_URL})|g" README.md
 
 # Replace live demo placeholder
-sed -i "s|🌐 Live Demo: \[https://openclaw2026nexapawlapakpintar-production.up.railway.app\]|🌐 Live Demo: [LapakPintar Live](${LIVE_URL})|g" README.md
+sed -i "s|🌐 Live Demo: \[https://openclaw2026nexapawlapakpintar-production.up.railway.app/docs\]|🌐 Live Demo: [LapakPintar Live](${LIVE_URL})|g" README.md
 
 echo "Copying Railway config files..."
 cp Dockerfile.railway Dockerfile.railway   # already in place if you cloned this script
