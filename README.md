@@ -193,9 +193,9 @@ Proyek ini berpartisipasi dalam **Best Payment Use Case** track dengan menginteg
 
 ## Demo
 
-📹 Demo Video: [YouTube Unlisted Link — akan diisi saat submission]
+📹 Demo Video: https://www.youtube.com/watch?v=n798nMT8Ce0
 
-🌐 Live Demo: [Deployment Link — akan diisi saat submission]
+🌐 Live Demo: https://openclaw2026nexapawlapakpintar-production.up.railway.app
 
 ---
 
