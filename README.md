@@ -9,6 +9,10 @@
 
 ---
 
+![NexaPaw Logo](NexaPaw_Logo.png)
+
+---
+
 ## Deskripsi Proyek
 
 **LapakPintar** adalah sistem Multi-Agent berbasis QwenPaw yang bekerja **24/7 secara otonom** untuk mengelola operasional bisnis UMKM Indonesia — memantau harga kompetitor, menganalisis tren penjualan, membuat konten promosi, merekonsiliasi pembayaran, hingga menghasilkan laporan bisnis — **tanpa intervensi manual**.
